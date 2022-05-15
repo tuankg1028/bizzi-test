@@ -1,0 +1,16 @@
+{ 
+  "exclude": ["prisma/seed.ts", "test/*"],
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "strict": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "lib": [
+      "esnext", "dom"
+    ],
+    "esModuleInterop": true,
+  },
+}
