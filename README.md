@@ -1,3 +1,6 @@
+### Description
+...
+
 ### Prerequisites
 
 Make sure you have installed all of the following prerequisites on your development machine:
@@ -10,7 +13,12 @@ _If you wish to run the project, you can use the following commands_
    ```sh
    npm install
    ```
-2. Run the project locally
+2. Run migration and seed
+   ```sh
+   npm run migrate
+   ```
+
+3. Run the project locally
    ```sh
    npm run dev
    ```
@@ -28,6 +36,6 @@ _If you wish to run the project, you can use the following commands_
 
 ### Testing with Jest
 
-    ```sh
-    npm run test
-    ```
+   ```sh
+   npm run test
+   ```
